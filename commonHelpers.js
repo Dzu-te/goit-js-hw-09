@@ -3,5 +3,5 @@ import"./assets/modulepreload-polyfill-ec808ebb.js";import{S as o}from"./assets/
   <a class="gallery-link" href="${p.original}">
     <img class="gallery-image" src="${p.preview}" alt="${p.description}" />
   </a>
-</li>`).join("");a.innerHTML=t;new o(".gallery a",{});
+</li>`).join("");a.innerHTML=t;new o(".gallery a",{captionsData:{},captionDelay:250});
 //# sourceMappingURL=commonHelpers.js.map
