@@ -82,6 +82,6 @@ const markup = images
 
 gallery.innerHTML = markup;
 const lightbox = new SimpleLightbox('.gallery a', {
-   captionsData: {} , captionDelay: 250
+  captionsData: 'alt',
+  captionDelay: 250,
 });
-
